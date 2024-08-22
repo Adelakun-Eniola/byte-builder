@@ -21,3 +21,4 @@ total_answer = number_one + number_two + number_three
 
 average = total_answer/3
 print("The average of the number is " , round(average, 4))
+
