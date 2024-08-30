@@ -1,8 +1,7 @@
 name = input("Enter Your Name: ")
 if name == "":
 	print ("invalid name")
-if name == name:
-	print ("hello ", name)
+
 
 '''
 score = int(input("Enter Your score: "))

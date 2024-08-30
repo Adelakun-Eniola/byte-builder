@@ -1,3 +1,0 @@
-score = input("Enter Your score")
-	if score >=40
-print("Passed")
