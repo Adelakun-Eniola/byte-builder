@@ -1,4 +1,4 @@
-'''for number in range(1000, 1201):
+for number in range(1000, 1201):
     while number != 0:
         remainder = number % 1000
         newnumber = number //1000
@@ -15,7 +15,7 @@
     print(number)
 
 
-
+'''
 oddnumber = ["1"]
 mylist = [1000]
 for number in range(1001, 3001):
@@ -24,6 +24,5 @@ print(mylist)
 
 for index in mylist:
     mylist.remove(oddnumber)
-
-
 '''
+

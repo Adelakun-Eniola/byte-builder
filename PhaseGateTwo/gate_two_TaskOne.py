@@ -1,4 +1,4 @@
-'''import random
+import random
 for number in range(1,11):
     number1 = (random.randrange(1,50))
     mylist = [number1]
@@ -31,7 +31,7 @@ for number in range(len(mylist)):
     if number%2 == 0:
         total += mylist[number]
 print(total)
-'''
+
 
 mylist = [0, 1, 2, 3, 4, 5]
 total = 0
