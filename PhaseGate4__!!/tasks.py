@@ -45,7 +45,7 @@ def factorial(number):
         product = product * factorial
     print(product)
 factorial(12)
-'''
+
 number = 7
 first_number =0
 second_number = 0
@@ -57,3 +57,12 @@ for i in range(number):
     third_number = first_number+second_number
     count+=1
     print(third_number, end = " ")
+'''
+
+
+letters = ['a','e','i','o','u']
+for letter in letters:
+    if letter == letters:
+        print("true")
+    else:
+        print("false")
