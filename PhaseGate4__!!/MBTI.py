@@ -7,15 +7,15 @@ def main_operation(arr, answers):
     for i in range(len(arr)):
       while True:
             print(arr[i])
-            input_ = input("Enter your choice (A/B): ").upper()
-            if input_ == "A" or input_ == "B":
-                answers[i] = input_
+            input = input("Enter your choice (A/B): ").upper()
+            if input == "A" or input == "B":
+                answers[i] = input
                 break
             else:
                 print("Invalid choice. Please enter A or B.")
 
 
-def personas_sum(arr, answers, chosen):
+def personas_sum(arr, answers, chosen)
     extrovert = 0
     introvert = 0
     for i in range(0, len(arr), 4):
@@ -121,13 +121,13 @@ def print_personality_type(answers, chosen):
 
 def main():
     arr = [
-        ["(A:) Expend energy, enjoy groups", "\t", " (B:) Conserve energy, enjoy one-on-one"],
-        ["(A:) Interpret literally", "\t", "(B:) look for meaning and possibilities"],
-        ["(A:) logical, thinking, question", "\t", "(B:) empathetic, feeling, accomodating"],
-        ["(A:) Organized,Orderly", "\t", "(B:) Flexible, adaptable"],
-        ["(A:) More outgoing, think out loud", "\t", "(B:) more reserved, think to yourself"],
-        ["(A:) Practical, realistic, experiential", "\t", "(B:) imaginative, innovative, theoretical"],
-        ["(A:) Candid, straight-foward, frank", "\t", "(B:) tactful, kind, encouraging"],
+        ["(A:) Expend energy, enjoy groups", " (B:) Conserve energy, enjoy one-on-one"],
+        ["(A:) Interpret literally",  "(B:) look for meaning and possibilities"],
+        ["(A:) logical, thinking, question",  "(B:) empathetic, feeling, accomodating"],
+        ["(A:) Organized,Orderly",  "(B:) Flexible, adaptable"],
+        ["(A:) More outgoing, think out loud",  "(B:) more reserved, think to yourself"],
+        ["(A:) Practical, realistic, experiential",  "(B:) imaginative, innovative, theoretical"],
+        ["(A:) Candid, straight-foward, frank", "(B:) tactful, kind, encouraging"],
         ["(A:) Plan, schedule", "\t", "(B:) unplanned, spontaneous"],
         ["(A:) Seek many tasks, public activities, interaction with others", "\t", "(B:) seek private, solitary activities with quiet to concentrate"],
         ["(A:) Standard, usual, conventional", "\t", "(B:) different, novel, unique"],
@@ -136,7 +136,7 @@ def main():
         ["(A:) External, communicate, express yourself", "\t", "(B:) internal, reticent, keep to yourself"],
         ["(A:) Focus on here-and-now", "\t", "(B:) look to the future, global perspective, big picture"],
         ["(A:) Tough-mided, just", "\t", "(B:) tender-hearted, merciful"],
-        ["(A:) Preparation, plan ahead", "\t", "(B:) go with the flow, adapt as you go"],
+        ["(A:) Preparation, plan ahead",  "(B:) go with the flow, adapt as you go"],
         ["(A:) Active, initiative", "\t", "(B:) reflective, deliberate"],
         ["(A:) Facts, Things, What is", "\t", "(B:) ideas, dreams, what could be, philosophical"],
         ["(A:) Matterof facts, issue-oriented", "\t", "(B:) sensitive, people-oriented, compassionate"],
@@ -155,5 +155,4 @@ def main():
     print("Personality Type: " + chosen[0] + chosen[1] + chosen[2] + chosen[3])
     print_personality_type(answers, chosen)
 
-if __name__ == "__main__":
-    main()
+main()

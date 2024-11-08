@@ -55,4 +55,15 @@ c = [5,2,7,1,8,2]
 for i in range(len(c)):
     product = c[i]*c[i]
     print(product, end = " ")
-'''    
+  
+
+
+a = []
+for number in range(1,6):
+    a+=[number]
+print(a)
+'''
+ def cube_list():
+     for i in range(10):
+         
+s
